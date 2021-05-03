@@ -1,0 +1,9 @@
+CREATE TABLE employee (
+frame VARCHAR2(10) NOT NULL,
+lname VARCHAR2(50) NOT NULL,
+ird CHAR(10),
+bdate DATE,
+empno CHAR(6) NOT NULL UNIQUE,
+dno INT DEFAULT 0,
+PRIMARY KEY (ird),
+);
